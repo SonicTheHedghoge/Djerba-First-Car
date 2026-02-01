@@ -31,7 +31,7 @@ const Hero: React.FC<HeroProps> = ({ setView }) => {
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-amber-500">Premier Choix.</span>
           </h1>
           <p className="text-lg md:text-xl text-gray-300 mb-10 max-w-xl leading-relaxed">
-            Découvrez notre sélection exclusive de véhicules premium. Djerba First Car vous accompagne dans l'achat, la vente et l'échange de votre voiture avec une expertise incomparable.
+            Découvrez notre sélection exclusive de véhicules premium. Hakouti Motors vous accompagne dans l'achat, la vente et l'échange de votre voiture avec une expertise incomparable.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4">

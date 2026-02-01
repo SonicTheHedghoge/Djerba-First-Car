@@ -18,19 +18,19 @@ const Footer: React.FC<FooterProps> = ({ setView }) => {
                     <div className="w-8 h-8 bg-red-600 rounded flex items-center justify-center">
                         <Car className="text-white w-5 h-5" />
                     </div>
-                    <h2 className="text-xl font-bold tracking-tighter text-white">DJERBA<span className="text-red-600">FIRST</span>CAR</h2>
+                    <h2 className="text-xl font-bold tracking-tighter text-white">HAKOUTI<span className="text-red-600">MOTORS</span></h2>
                 </div>
                 <p className="text-neutral-400 text-sm leading-relaxed mb-6">
                     Votre partenaire de confiance pour l'achat et la vente de véhicules premium à Djerba. Qualité, transparence et expertise.
                 </p>
                 <div className="flex gap-4">
                     {/* Social Icons Placeholder */}
-                    <div className="w-10 h-10 rounded-full bg-neutral-900 flex items-center justify-center text-neutral-400 hover:bg-red-600 hover:text-white transition-colors cursor-pointer">
+                    <a href={CONTACT_INFO.facebook} target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full bg-neutral-900 flex items-center justify-center text-neutral-400 hover:bg-red-600 hover:text-white transition-colors cursor-pointer">
                         <span className="font-bold">F</span>
-                    </div>
-                    <div className="w-10 h-10 rounded-full bg-neutral-900 flex items-center justify-center text-neutral-400 hover:bg-red-600 hover:text-white transition-colors cursor-pointer">
+                    </a>
+                    <a href={CONTACT_INFO.instagram} target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full bg-neutral-900 flex items-center justify-center text-neutral-400 hover:bg-red-600 hover:text-white transition-colors cursor-pointer">
                         <span className="font-bold">I</span>
-                    </div>
+                    </a>
                 </div>
             </div>
 
@@ -50,7 +50,7 @@ const Footer: React.FC<FooterProps> = ({ setView }) => {
             <div>
                 <h3 className="text-white font-bold mb-6">Horaires d'ouverture</h3>
                 <ul className="space-y-4 text-neutral-400 text-sm">
-                    <li className="flex justify-between"><span>Lundi - Samedi</span> <span className="text-white">08:00 - 19:00</span></li>
+                    <li className="flex justify-between"><span>Lundi - Samedi</span> <span className="text-white">09:00 - 20:00</span></li>
                     <li className="flex justify-between"><span>Dimanche</span> <span className="text-red-500">Sur rendez-vous</span></li>
                 </ul>
             </div>
@@ -76,7 +76,7 @@ const Footer: React.FC<FooterProps> = ({ setView }) => {
         </div>
 
         <div className="border-t border-white/5 pt-8 text-center text-neutral-500 text-sm">
-            <p>&copy; {new Date().getFullYear()} Djerba First Car. Tous droits réservés.</p>
+            <p>&copy; {new Date().getFullYear()} Hakouti Motors Djerba. Tous droits réservés.</p>
         </div>
       </div>
     </footer>

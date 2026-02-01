@@ -17,15 +17,15 @@ const About: React.FC = () => {
         <div className="order-1 lg:order-2">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">L'Excellence Automobile à <span className="text-red-600">Djerba</span></h2>
             <p className="text-lg text-neutral-300 mb-6 leading-relaxed">
-                Fondé avec une passion pour l'automobile de prestige, <strong className="text-white">Djerba First Car</strong> est devenu la référence incontournable pour l'achat, la vente et l'échange de véhicules de qualité sur l'île de Djerba.
+                Fondé avec une passion pour l'automobile de prestige, <strong className="text-white">Hakouti Motors</strong> est devenu la référence incontournable pour l'achat, la vente et l'échange de véhicules de qualité sur l'île de Djerba.
             </p>
             <p className="text-lg text-neutral-300 mb-8 leading-relaxed">
                 Notre mission est simple : offrir une expérience client transparente, honnête et premium. Que vous cherchiez votre première voiture ou un modèle de luxe exclusif, notre équipe d'experts est là pour vous guider à chaque étape.
             </p>
             <div className="grid grid-cols-2 gap-6">
                 <div className="flex flex-col gap-2">
-                    <span className="text-4xl font-bold text-red-600">500+</span>
-                    <span className="text-sm text-neutral-400 uppercase tracking-wide">Clients Satisfaits</span>
+                    <span className="text-4xl font-bold text-red-600">2.2K+</span>
+                    <span className="text-sm text-neutral-400 uppercase tracking-wide">Abonnés</span>
                 </div>
                 <div className="flex flex-col gap-2">
                     <span className="text-4xl font-bold text-amber-500">100%</span>

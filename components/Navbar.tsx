@@ -49,7 +49,7 @@ const Navbar: React.FC<NavbarProps> = ({ currentView, setView }) => {
              <Car className="text-white w-6 h-6" />
           </div>
           <div>
-            <h1 className="text-2xl font-bold tracking-tighter text-white">DJERBA<span className="text-red-600">FIRST</span>CAR</h1>
+            <h1 className="text-2xl font-bold tracking-tighter text-white">HAKOUTI<span className="text-red-600">MOTORS</span></h1>
           </div>
         </div>
 

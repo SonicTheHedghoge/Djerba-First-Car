@@ -34,7 +34,7 @@ const SellTrade: React.FC = () => {
         <div className="lg:col-span-5 space-y-6">
             <div className="bg-gradient-to-br from-red-900/20 to-neutral-900 border border-red-500/20 rounded-3xl p-8 relative overflow-hidden">
                 <div className="absolute top-0 right-0 w-32 h-32 bg-red-600 blur-[60px] opacity-20"></div>
-                <h3 className="text-2xl font-bold text-white mb-8">Pourquoi choisir Djerba First Car ?</h3>
+                <h3 className="text-2xl font-bold text-white mb-8">Pourquoi choisir Hakouti Motors ?</h3>
                 
                 <div className="space-y-6">
                     <div className="flex gap-4">
@@ -147,7 +147,7 @@ const SellTrade: React.FC = () => {
                         <input 
                             type="tel" 
                             name="phone" 
-                            placeholder="ex: 26 606 165"
+                            placeholder="ex: 22 183 422"
                             value={formData.phone}
                             onChange={handleChange}
                             className="w-full bg-neutral-900 border border-white/10 rounded-lg py-3 px-4 text-white focus:border-red-600 focus:outline-none"

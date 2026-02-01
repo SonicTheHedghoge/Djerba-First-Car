@@ -11,7 +11,7 @@ interface Message {
 const AiAssistant: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [messages, setMessages] = useState<Message[]>([
-    { role: 'model', text: "Bonjour ! Je suis l'IA de Djerba First Car. Je connais tout notre stock. Comment puis-je vous aider aujourd'hui ?" }
+    { role: 'model', text: "Bonjour ! Je suis l'IA de Hakouti Motors. Je connais tout notre stock. Comment puis-je vous aider aujourd'hui ?" }
   ]);
   const [input, setInput] = useState('');
   const [isLoading, setIsLoading] = useState(false);
@@ -32,7 +32,7 @@ const AiAssistant: React.FC = () => {
         const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
         
         const systemContext = `
-          You are the AI Sales Assistant for "Djerba First Car", a premium car showroom in Djerba, Tunisia.
+          You are the AI Sales Assistant for "Hakouti Motors", a premium car showroom in Houmt Souk, Djerba, Tunisia.
           
           Our Contact Info:
           Address: ${CONTACT_INFO.address}
@@ -112,7 +112,7 @@ const AiAssistant: React.FC = () => {
                   <Bot className="text-white w-6 h-6" />
                 </div>
                 <div>
-                  <h3 className="font-bold text-white text-lg leading-tight">Djerba First AI</h3>
+                  <h3 className="font-bold text-white text-lg leading-tight">Hakouti AI</h3>
                   <div className="flex items-center gap-1.5">
                     <span className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span>
                     <span className="text-xs text-neutral-300">En ligne</span>
